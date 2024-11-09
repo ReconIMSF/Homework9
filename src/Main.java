@@ -64,5 +64,10 @@ public class Main {
             reverseFullName[i] = firstChar;
         }
         System.out.println(reverseFullName);
+        //второй способ - вывод без замены массива
+        char[] reverseFullName1 = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+        for (int i = 0; i <= reverseFullName1.length - 1 ; i++) {
+            System.out.print(reverseFullName1[reverseFullName1.length - (i + 1)]);
+        }
     }
 }
